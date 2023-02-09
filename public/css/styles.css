@@ -1,0 +1,63 @@
+body {
+    font-family: Helvetica;
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+    color: rgb(100, 172, 187);
+
+}
+.new-btn {
+    color: white;
+}
+
+.title {
+    text-align: center;
+}
+
+h1, h2 {
+    font-family: Helvetica;
+    text-align: center;
+    color:rgb(121, 134, 147);
+
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    text-align: center;
+    
+}
+
+label {
+    font-weight: bold;
+    margin-top: 20px;
+}
+ input[type="text"], textarea {
+    width: 100%;
+    padding: 10px;
+    margin-top: 10px;
+
+ }
+  button[type="submit"] {
+    margin-top: 20px;
+    padding: 10px 20px;
+    background-color: lightblue;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+
+  button[type="button"] {
+    margin-top: 20px;
+    padding: 10px 20px;
+    background-color: lightblue;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
