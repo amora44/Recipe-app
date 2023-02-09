@@ -23,7 +23,7 @@ A simple app to create recipes. User is able to create new recipe, edit an exist
 
 ## Screenshots:
 
-(<img width="1200" alt="Screen Shot 2023-02-09 at 12 30 07 PM" src="https://user-images.githubusercontent.com/107235292/217907393-ef2acd86-6bf0-4e6e-9577-fde5b52da4a3.png">
+<img width="1200" alt="Screen Shot 2023-02-09 at 12 30 07 PM" src="https://user-images.githubusercontent.com/107235292/217907393-ef2acd86-6bf0-4e6e-9577-fde5b52da4a3.png">
 
 <img width="1200" alt="Screen Shot 2023-02-09 at 12 31 18 PM" src="https://user-images.githubusercontent.com/107235292/217907489-9988af08-38d0-4cd5-8ec0-5efab89f5690.png">
 
