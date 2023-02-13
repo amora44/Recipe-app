@@ -13,23 +13,23 @@
     <form action="/recipes/<%= recipe.id %>?_method=PUT" method="POST">
         <div>
             <label for="title">Title:</label>
-            <input type="text" id="title" name="recipe[title]" value="<%= recipe.title %>">
+            <input type="text" id="title" name="title" value="<%= recipe.title %>">
           </div>
           <div>
             <label for="ingredients">Ingredients:</label>
-            <textarea id="ingredients" name="recipe[ingredients]"><%= recipe.ingredients %></textarea>
+            <textarea id="ingredients" name="ingredients"><%= recipe.ingredients %></textarea>
           </div>
           <div>
             <label for="instructions">Instructions:</label>
-            <textarea id="instructions" name="recipe[instructions]"><%= recipe.instructions %></textarea>
+            <textarea id="instructions" name="instructions"><%= recipe.instructions %></textarea>
           </div>
       <div>
         <label for="time">Time:</label>
-        <input type="number" id="time" name="recipe[time]" value="<%= recipe.time %>">
+        <input type="number" id="time" name="time" value="<%= recipe.time %>">
       </div>
       <div>
         <label for="difficulty">Difficulty:</label>
-        <input type="number" id="difficulty" name="recipe[difficulty]" required><br>
+        <input type="number" id="difficulty" name="difficulty"><br>
       </div>
       <button type="submit">Update Recipe</button>
     </form>

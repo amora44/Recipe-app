@@ -12,15 +12,15 @@
     <h1>Add New Recipe</h1>
     <form action="/recipes" method="POST">
         <label for="title">Title:</label>
-        <input type="string" id="title" name="recipe[title]" required><br>
+        <input type="string" id="title" name="title" value="<%= recipe.title %>"><br>
         <label for="time">Time:</label>
-        <input type="number" id="time" name="recipe[time]" required><br>
+        <input type="number" id="time" name="time" value="<%= recipe.time %>"><br>
         <label for="difficulty">Difficulty:</label>
-        <input type="number" id="difficulty" name="recipe[difficulty]" required><br>
+        <input type="number" id="difficulty" name="difficulty" value="<%= recipe.difficulty %>"><br>
         <label for="ingredients">Ingredients:</label>
-        <textarea type="string" id="ingredients" name="recipe[ingredients]" required></textarea><br>
+        <textarea type="string" id="ingredients" name="ingredients" value="<%= recipe.ingredients %>"></textarea><br>
         <label for="instructions">Instructions:</label>
-        <textarea type="string" id="instructions" name="recipe[instructions]" required></textarea><br>
+        <textarea type="string" id="instructions" name="instructions" value="<%= recipe.instructions %>"></textarea><br>
         <button type="submit">Create Recipe</button>
     </form>
     <a href="/">Back to Recipes</a>

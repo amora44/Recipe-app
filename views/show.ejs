@@ -13,11 +13,7 @@
     <p>Time: <%= recipe.time %> minutes</p>
     <p>Difficulty: <%= recipe.difficulty %></p>
     <h2>Ingredients:</h2>
-    <ul>
-        <% recipe.ingredients.forEach(function(ingredient) { %>
-            <li><%= recipe.ingredients %></li>
-        <% }); %>
-    </ul>
+    <p><%= recipe.ingredients %></p>
     <h2>Instructions:</h2>
     <p><%= recipe.instructions %></p>
     <div class="buttons">

@@ -4,7 +4,6 @@ const mongoose = require('mongoose');
 const recipesRouter = require('./controllers/recipe');
 const methodOverride = require('method-override');
 
-
 //initialize
 const app = express();
 
@@ -26,10 +25,6 @@ db.on('connected', () => {
 db.on('error', (err) => {
     console.log('An error occurred with MongoDB: ' + err.message);
 });
-
-
-
-
 
 //mount middleware
 app.use(express.urlencoded({ extended: false }));
