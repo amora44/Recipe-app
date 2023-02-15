@@ -2,7 +2,7 @@
 
 A simple recipe app to different types of recipes.
 
-[Deploy App](https://my-recipe-app1.herokuapp.com/)
+[Deploy App](https://my-recipe-app1.herokuapp.com/recipes)
 
 ## Technologies Used
 
